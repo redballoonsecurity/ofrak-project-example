@@ -4,14 +4,16 @@
     "scripts": [
         {"name": "unpack-and-comment.py"},
         {"name": "unpack.py"},
-        {"name": "modify.py"}],
-        "binaries":{
-            "example_program": {
-                "init_script": "modify.py", 
-                "associated_scripts": [
-                    "unpack-and-comment.py",
-                    "unpack.py",
-                    "modify.py"
-                ]
-            }
+        {"name": "modify.py"}
+    ],
+    "binaries":{
+        "example_program": {
+            "init_script": "modify.py", 
+            "associated_scripts": [
+                "unpack-and-comment.py",
+                "unpack.py",
+                "modify.py"
+            ]
         }
+    }
+}
