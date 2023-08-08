@@ -1,0 +1,1 @@
+{"name": "test", "project_id": "c2390a1bb9d547609ff80b5157aae7dd", "scripts": [{"name": "unpack-and-comment.py"}, {"name": "unpack.py"}, {"name": "modify.py"}], "binaries": [{"name": "example_program", "init_script": null, "associated_scripts": []}]}
