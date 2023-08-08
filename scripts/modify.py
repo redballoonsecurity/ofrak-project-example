@@ -77,7 +77,7 @@ async def main(ofrak_context: OFRAKContext, root_resource: Optional[Resource] = 
 
     await instruction_0x400645.save()
     await instruction_0x400645.auto_run(all_analyzers=True)
-    await basicblock_0x400645.run(
+    await instruction_0x400645.run(
         AddCommentModifier,
         AddCommentModifierConfig((Range(0x0, 0x5), "We modified this instruction to perform an infinite loop instead of calling printf")),
     )
