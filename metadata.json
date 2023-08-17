@@ -14,12 +14,6 @@
                 "unpack.py",
                 "modify.py"
             ]
-        },
-        "sample.sqsh": {
-            "init_script": "unpack.py",
-            "associated_scripts": [
-                "unpack.py"
-            ]
         }
     }
 }
